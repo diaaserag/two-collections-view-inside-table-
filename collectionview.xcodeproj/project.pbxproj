@@ -15,6 +15,10 @@
 		69177AB626C1801C0055BD36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69177AB426C1801C0055BD36 /* LaunchScreen.storyboard */; };
 		69177AC126C1801C0055BD36 /* collectionviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69177AC026C1801C0055BD36 /* collectionviewTests.swift */; };
 		69177ACC26C1801C0055BD36 /* collectionviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69177ACB26C1801C0055BD36 /* collectionviewUITests.swift */; };
+		69177ADA26C181120055BD36 /* logoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69177AD926C181120055BD36 /* logoCell.swift */; };
+		69177ADC26C181AD0055BD36 /* collectionLOGO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69177ADB26C181AD0055BD36 /* collectionLOGO.swift */; };
+		69177ADE26C1B74A0055BD36 /* phoneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69177ADD26C1B74A0055BD36 /* phoneCell.swift */; };
+		69177AE026C1BFCE0055BD36 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69177ADF26C1BFCE0055BD36 /* CollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		69177AC726C1801C0055BD36 /* collectionviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collectionviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69177ACB26C1801C0055BD36 /* collectionviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionviewUITests.swift; sourceTree = "<group>"; };
 		69177ACD26C1801C0055BD36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69177AD926C181120055BD36 /* logoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoCell.swift; sourceTree = "<group>"; };
+		69177ADB26C181AD0055BD36 /* collectionLOGO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionLOGO.swift; sourceTree = "<group>"; };
+		69177ADD26C1B74A0055BD36 /* phoneCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phoneCell.swift; sourceTree = "<group>"; };
+		69177ADF26C1BFCE0055BD36 /* CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				69177AA926C1801B0055BD36 /* AppDelegate.swift */,
 				69177AAB26C1801B0055BD36 /* SceneDelegate.swift */,
 				69177AAD26C1801B0055BD36 /* ViewController.swift */,
+				69177AD926C181120055BD36 /* logoCell.swift */,
+				69177ADB26C181AD0055BD36 /* collectionLOGO.swift */,
+				69177ADD26C1B74A0055BD36 /* phoneCell.swift */,
+				69177ADF26C1BFCE0055BD36 /* CollectionReusableView.swift */,
 				69177AAF26C1801B0055BD36 /* Main.storyboard */,
 				69177AB226C1801C0055BD36 /* Assets.xcassets */,
 				69177AB426C1801C0055BD36 /* LaunchScreen.storyboard */,
@@ -258,8 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69177AE026C1BFCE0055BD36 /* CollectionReusableView.swift in Sources */,
+				69177ADE26C1B74A0055BD36 /* phoneCell.swift in Sources */,
 				69177AAE26C1801B0055BD36 /* ViewController.swift in Sources */,
 				69177AAA26C1801B0055BD36 /* AppDelegate.swift in Sources */,
+				69177ADA26C181120055BD36 /* logoCell.swift in Sources */,
+				69177ADC26C181AD0055BD36 /* collectionLOGO.swift in Sources */,
 				69177AAC26C1801B0055BD36 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
